@@ -1,0 +1,12 @@
+Modele:
+-------
+Player, 
+Tournament, 
+Squad(M2M tournament-player), 
+Stat,
+Team, 
+Round(nazwa, order/position),
+Match(ForeignKey - Team-Team-Tournament,Round) 
+Table(Fk->Team,Fk->Round, position, points, goals etc.....)
+
+NIE MUSZE ROBIC POST !!! POTRZEBUJE TYLKO GET !!!!
