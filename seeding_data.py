@@ -47,3 +47,21 @@ tournaments = [
         "year": 1978
     },
 ]
+
+
+squads = [
+    {
+    "playerId":1,
+    "tournamentId":4,
+    "appearances":4,
+    "goals":3,
+    "position":"Pomocnik",
+    },
+    {
+    "playerId":2,
+    "tournamentId":4,
+    "appearances":8,
+    "goals":1,
+    "position":"Obronca",
+    },
+]

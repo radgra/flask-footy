@@ -3,13 +3,15 @@ from flask_restful import Api
 from db import db
 from ma import ma
 # Seeding Data
-from seeding_data import players, tournaments
+from seeding_data import players, tournaments, squads
 # Models
 from models.player import Player
 from models.tournament import Tournament
+from models.squad import Squad
 # Resources
 from resources.players import PlayerList
 from resources.tournaments import TournamentList
+from resources.squads import SquadList
 
 
 app = Flask(__name__)
@@ -27,6 +29,7 @@ ma.init_app(app)
 # Routes
 api.add_resource(PlayerList, '/players')
 api.add_resource(TournamentList, '/tournaments')
+api.add_resource(SquadList, '/squads')
 
 
 @app.before_first_request
@@ -52,6 +55,12 @@ def seed_all():
     for tournament in tournaments:
         new_tournament = Tournament(**tournament)
         db.session.add(new_tournament)
+        db.session.commit()
+
+    # squads
+    for squad in squads:
+        new_squad = Squad(**squad)
+        db.session.add(new_squad)
         db.session.commit()
 
 

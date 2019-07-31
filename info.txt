@@ -3,10 +3,10 @@ Modele:
 Player, 
 Tournament, 
 Squad(M2M tournament-player), 
-Stat,
+Round(nazwa, order/position), <-- nie potrzebuje tournament bo match bedzie mial runde - przypisywanie rund do tournaments to overkill
 Team, 
-Round(nazwa, order/position),
 Match(ForeignKey - Team-Team-Tournament,Round) 
 Table(Fk->Team,Fk->Round, position, points, goals etc.....)
+Stat,
 
 NIE MUSZE ROBIC POST !!! POTRZEBUJE TYLKO GET !!!!
