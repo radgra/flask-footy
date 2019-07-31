@@ -65,3 +65,38 @@ squads = [
     "position":"Obronca",
     },
 ]
+
+
+rounds = [
+    {
+        "name":"Pierwsza Runda",
+        "position":1
+    },
+    {
+        "name":"Druga Runda",
+        "position":2
+    },
+]
+
+teams = [
+    {
+        "flag": "/assets/flags/pl.svg",
+        "name": "Polska"
+    },
+    {
+      "flag": "/assets/flags/cm.svg",
+      "name": "Kamerun"
+    },
+    {
+      "flag": "/assets/flags/it.svg",
+      "name": "Wlochy"
+    },
+    {
+      "flag": "/assets/flags/pe.svg",
+      "name": "Peru"
+    },
+    {
+      "flag": "/assets/flags/be.svg",
+      "name": "Belgia"
+    },
+]
