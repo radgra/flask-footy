@@ -3,19 +3,25 @@ from flask_restful import Api
 from db import db
 from ma import ma
 # Seeding Data
-from seeding_data import players, tournaments, squads, rounds, teams
+from seeding_data import players, tournaments, squads, stages, teams, matches, goals, standings
 # Models
 from models.player import Player
-from models.round import Round
+from models.stage import Stage
 from models.tournament import Tournament
 from models.squad import Squad
 from models.team import Team
+from models.match import Match
+from models.goal import Goal
+from models.standing import Standing
 # Resources
 from resources.players import PlayerList
 from resources.tournaments import TournamentList
 from resources.squads import SquadList
-from resources.rounds import RoundList
+from resources.stages import StageList
 from resources.teams import TeamList
+from resources.matches import MatchList
+from resources.goals import GoalList
+from resources.standings import StandingList
 
 
 app = Flask(__name__)
@@ -34,8 +40,11 @@ ma.init_app(app)
 api.add_resource(PlayerList, '/players')
 api.add_resource(TournamentList, '/tournaments')
 api.add_resource(SquadList, '/squads')
-api.add_resource(RoundList, '/rounds')
+api.add_resource(StageList, '/stages')
 api.add_resource(TeamList, '/teams')
+api.add_resource(MatchList, '/matches')
+api.add_resource(GoalList, '/goals')
+api.add_resource(StandingList, '/standings')
 
 
 @app.before_first_request
@@ -69,9 +78,9 @@ def seed_all():
         db.session.add(new_squad)
         db.session.commit()
 
-    # rounds
-    for single_round in rounds:
-        new_round = Round(**single_round)
+    # stages
+    for single_round in stages:
+        new_round = Stage(**single_round)
         db.session.add(new_round)
         db.session.commit()
 
@@ -79,6 +88,24 @@ def seed_all():
     for team in teams:
         new_team = Team(**team)
         db.session.add(new_team)
+        db.session.commit()
+
+    # matches
+    for match in matches:
+        new_match = Match(**match)
+        db.session.add(new_match)
+        db.session.commit()
+
+    # scorers
+    for goal in goals:
+        new_goal = Goal(**goal)
+        db.session.add(new_goal)
+        db.session.commit()
+
+    # standings
+    for standing in standings:
+        new_standing = Standing(**standing)
+        db.session.add(new_standing)
         db.session.commit()
 
 

@@ -1,8 +1,8 @@
 from db import db
 
 
-class Round(db.Model):
-    __tablename__ = 'rounds'
+class Stage(db.Model):
+    __tablename__ = 'stages'
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(200))

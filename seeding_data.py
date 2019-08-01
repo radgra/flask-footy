@@ -51,30 +51,30 @@ tournaments = [
 
 squads = [
     {
-    "playerId":1,
-    "tournamentId":4,
-    "appearances":4,
-    "goals":3,
-    "position":"Pomocnik",
+        "playerId": 1,
+        "tournamentId": 4,
+        "appearances": 4,
+        "goals": 3,
+        "position": "Pomocnik",
     },
     {
-    "playerId":2,
-    "tournamentId":4,
-    "appearances":8,
-    "goals":1,
-    "position":"Obronca",
+        "playerId": 2,
+        "tournamentId": 4,
+        "appearances": 8,
+        "goals": 1,
+        "position": "Obronca",
     },
 ]
 
 
-rounds = [
+stages = [
     {
-        "name":"Pierwsza Runda",
-        "position":1
+        "name": "Pierwsza Runda",
+        "position": 1
     },
     {
-        "name":"Druga Runda",
-        "position":2
+        "name": "Druga Runda",
+        "position": 2
     },
 ]
 
@@ -84,19 +84,77 @@ teams = [
         "name": "Polska"
     },
     {
-      "flag": "/assets/flags/cm.svg",
-      "name": "Kamerun"
+        "flag": "/assets/flags/cm.svg",
+        "name": "Kamerun"
     },
     {
-      "flag": "/assets/flags/it.svg",
-      "name": "Wlochy"
+        "flag": "/assets/flags/it.svg",
+        "name": "Wlochy"
     },
     {
-      "flag": "/assets/flags/pe.svg",
-      "name": "Peru"
+        "flag": "/assets/flags/pe.svg",
+        "name": "Peru"
     },
     {
-      "flag": "/assets/flags/be.svg",
-      "name": "Belgia"
+        "flag": "/assets/flags/be.svg",
+        "name": "Belgia"
+    },
+]
+
+
+matches = [
+    {
+        "homeTeamId": 1,
+        "awayTeamId": 2,
+        "tournamentId": 4,
+        "date": datetime.datetime(2016, 10, 30),
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 1
+    },
+    {
+        "homeTeamId": 1,
+        "awayTeamId": 3,
+        "tournamentId": 4,
+        "date": datetime.datetime(2016, 10, 30),
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 5
+    },
+]
+
+# Jak bede chcial pocwiczyc to moge walidacje zrobic pozniej
+goals = [
+    {
+        "matchId": 1,
+        "playerId": 2,
+        "minute": 66,
+        "homeTeamGoal": True,
+    },
+    {
+        "matchId": 1,
+        "playerId": 3,
+        "minute": 12,
+        "awayTeamGoal": True,
+    },
+]
+
+
+standings = [
+    {
+        "tournamentId": 4,
+        "teamId": 1,
+        "stageId": 1,
+        "position": 1,
+        "goalsScored": 8,
+        "goalsConceded": 4,
+        "points": 10
+    },
+    {
+        "tournamentId": 4,
+        "teamId": 2,
+        "stageId": 1,
+        "position": 2,
+        "goalsScored": 4,
+        "goalsConceded": 4,
+        "points": 5
     },
 ]

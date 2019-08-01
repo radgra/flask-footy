@@ -5,8 +5,9 @@ DONE Tournament,
 DONE Squad(M2M tournament-player), 
 DONE Round(nazwa, order/position), <-- nie potrzebuje tournament bo match bedzie mial runde - przypisywanie rund do tournaments to overkill
 DONE Team (name,flag), 
-Match(ForeignKey - Team-Team-Tournament,Round) 
-Table(Fk->Team,Fk->Round, position, points, goals etc.....)
+DONE Match(ForeignKey - Team-Team-Tournament,Round) 
+DONE Scorers(Match,awayTeam/homeTeam flag., player, minute)
+Table(FK->Tournament,Fk->Team,Fk->Round, position, points, goals etc.....)
 Stat,
 
 NIE MUSZE ROBIC POST !!! POTRZEBUJE TYLKO GET !!!!
