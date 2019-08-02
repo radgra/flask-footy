@@ -2,7 +2,6 @@ from flask_restful import Resource
 from models.match import Match
 from schemas.match import MatchSchema
 from flask import request
-from models.tournament import Tournament
 
 class MatchList(Resource):
     match_schema = MatchSchema()
