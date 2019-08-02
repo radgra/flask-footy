@@ -7,7 +7,8 @@ DONE Round(nazwa, order/position), <-- nie potrzebuje tournament bo match bedzie
 DONE Team (name,flag), 
 DONE Match(ForeignKey - Team-Team-Tournament,Round) 
 DONE Scorers(Match,awayTeam/homeTeam flag., player, minute)
-Table(FK->Tournament,Fk->Team,Fk->Round, position, points, goals etc.....)
-Stat,
+DONE Table(FK->Tournament,Fk->Team,Fk->Round, position, points, goals etc.....)
+DONE Stat (player, goals, matches )
+DONE StatRanking(stat, type:string("goals","matches"),position)
 
 NIE MUSZE ROBIC POST !!! POTRZEBUJE TYLKO GET !!!!

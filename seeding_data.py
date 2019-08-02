@@ -109,7 +109,8 @@ matches = [
         "tournamentId": 4,
         "date": datetime.datetime(2016, 10, 30),
         "goalsHomeTeam": 2,
-        "goalsAwayTeam": 1
+        "goalsAwayTeam": 1,
+        "stageId":1
     },
     {
         "homeTeamId": 1,
@@ -117,7 +118,26 @@ matches = [
         "tournamentId": 4,
         "date": datetime.datetime(2016, 10, 30),
         "goalsHomeTeam": 0,
-        "goalsAwayTeam": 5
+        "goalsAwayTeam": 5,
+        "stageId":1
+    },
+    {
+        "homeTeamId": 1,
+        "awayTeamId": 3,
+        "tournamentId": 4,
+        "date": datetime.datetime(2016, 10, 30),
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 5,
+        "stageId":2
+    },
+    {
+        "homeTeamId": 1,
+        "awayTeamId": 3,
+        "tournamentId": 1,
+        "date": datetime.datetime(2016, 10, 30),
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 5,
+        "stageId":1
     },
 ]
 
@@ -127,6 +147,12 @@ goals = [
         "matchId": 1,
         "playerId": 2,
         "minute": 66,
+        "homeTeamGoal": True,
+    },
+    {
+        "matchId": 1,
+        "playerId": 3,
+        "minute": 13,
         "homeTeamGoal": True,
     },
     {
@@ -156,5 +182,32 @@ standings = [
         "goalsScored": 4,
         "goalsConceded": 4,
         "points": 5
+    },
+]
+
+
+stats = [
+    {
+        "playerId":1,
+        "goals":10,
+        "matches":30
+    },
+    {
+        "playerId":2,
+        "goals":20,
+        "matches":40
+    },
+]
+
+stat_rankings = [
+    {
+        "statId":1,
+        "position":1,
+        "rankingType":"goals"
+    },
+    {
+        "statId":1,
+        "position":1,
+        "rankingType":"matchest"
     },
 ]
