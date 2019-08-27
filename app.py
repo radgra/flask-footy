@@ -144,9 +144,10 @@ def seed_all():
                 year=tournament['year']).first()
             stage = Stage.query.filter(
                 Stage.tournamentId == tournament_found.id, Stage.position == match['round']).first()
-            match_date = datetime.strptime(match['date'].strip(), "%d.%m.%Y").date()
-            match_obj = {"homeTeam":home_team, "awayTeam":away_team, "tournamentId":tournament_found.id, "stageId":stage.id,
-                              "date":match_date, "goalsHomeTeam":match['result']['goalsHomeTeam'], "goalsAwayTeam":match['result']['goalsAwayTeam']}
+            match_date = datetime.strptime(
+                match['date'].strip(), "%d.%m.%Y").date()
+            match_obj = {"homeTeam": home_team, "awayTeam": away_team, "tournamentId": tournament_found.id, "stageId": stage.id,
+                         "date": match_date, "goalsHomeTeam": match['result']['goalsHomeTeam'], "goalsAwayTeam": match['result']['goalsAwayTeam']}
             new_match = Match(**match_obj)
             db.session.add(new_match)
             db.session.commit()
@@ -155,13 +156,15 @@ def seed_all():
             for goal in match['goalscorers']['homeGoalScorers']:
                 # playerId = napisac or query => albo last name jest takie albo split string i szukac po first name i last name
                 if '(k)' in goal['player'] or '(s)' in goal['player']:
-                    goal['player'] = goal['player'][3:] 
-                
+                    goal['player'] = goal['player'][3:]
+
                 pl_split = goal['player'].split()
-                found_player = Player.query.filter((Player.lastName==goal['player']) | ((Player.lastName==pl_split[-1]) & (Player.firstName==pl_split[0]))).first()
+                found_player = Player.query.filter((Player.lastName == goal['player']) | (
+                    (Player.lastName == pl_split[-1]) & (Player.firstName == pl_split[0]))).first()
                 if not found_player:
                     pdb.set_trace()
-                new_goal = Goal(matchId=new_match.id, minute=goal['minute'], playerId=found_player.id, homeTeamGoal=True)
+                new_goal = Goal(
+                    matchId=new_match.id, minute=goal['minute'], playerId=found_player.id, homeTeamGoal=True)
                 db.session.add(new_goal)
                 db.session.commit()
 
@@ -169,23 +172,34 @@ def seed_all():
             for goal in match['goalscorers']['awayGoalScorers']:
                 # playerId = napisac or query => albo last name jest takie albo split string i szukac po first name i last name
                 if '(k)' in goal['player'] or '(s)' in goal['player']:
-                    goal['player'] = goal['player'][3:] 
+                    goal['player'] = goal['player'][3:]
 
                 pl_split = goal['player'].split()
-                found_player = Player.query.filter((Player.lastName==goal['player']) | ((Player.lastName==pl_split[-1]) & (Player.firstName==pl_split[0]))).first()
+                found_player = Player.query.filter((Player.lastName == goal['player']) | (
+                    (Player.lastName == pl_split[-1]) & (Player.firstName == pl_split[0]))).first()
                 if not found_player:
                     pdb.set_trace()
-                new_goal = Goal(matchId=new_match.id, minute=goal['minute'], playerId=found_player.id, awayTeamGoal=True)
+                new_goal = Goal(
+                    matchId=new_match.id, minute=goal['minute'], playerId=found_player.id, awayTeamGoal=True)
                 db.session.add(new_goal)
                 db.session.commit()
-            
 
-
-    # standings
-    for standing in standings:
-        new_standing = Standing(**standing)
-        db.session.add(new_standing)
-        db.session.commit()
+        # standings
+        for standing in tournament['standings']:
+            # 1.Team id
+            found_team = Team.query.filter_by(
+                name=standing['teamName']).first()
+            # 2.Round Id
+            tournament_found = Tournament.query.filter_by(
+                year=tournament['year']).first()
+            stage = Stage.query.filter(
+                Stage.tournamentId == tournament_found.id, Stage.position == standing['round']).first()
+            # Czy potrzebuje wins/loses/draws ????
+            new_standing = Standing(stageId=stage.id, teamId=found_team.id,
+                                    tournamentId=tournament_found.id, position=standing['position'], points=standing['points'], 
+                                    goalsScored=standing['goalsScored'], goalsConceded=standing['goalsConceded'])
+            db.session.add(new_standing)
+            db.session.commit()
 
     # stats
     for stat in stats:
