@@ -65,7 +65,7 @@ def create_tables():
 def make_shell_context():
     return dict(db=db, app=app, Player=Player)
 
-
+# circular dependency -> moge exportowac app ale zeby uruchomic plik musze go w app importowac
 @app.cli.command('seed')
 def seed_all():
     import pickle
