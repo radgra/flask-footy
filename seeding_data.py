@@ -167,6 +167,11 @@ stages = [
         "position": 1,
         "tournamentId":7
     },
+    {
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":8
+    },
 
 ]
 
