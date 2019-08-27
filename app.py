@@ -26,7 +26,8 @@ from resources.matches import MatchList
 from resources.goals import GoalList
 from resources.standings import StandingList
 from resources.stats import StatList
-from resources.stat_rankings import StatRankingList 
+from resources.stat_rankings import StatRankingList
+import pdb
 
 app = Flask(__name__)
 CORS(app)
@@ -69,7 +70,7 @@ def seed_all():
     import pickle
     file = open("data.pickle", "rb")
     data = pickle.load(file)
-    print(data['tournament_data'])
+    # print(data['tournament_data'])
 
     db.create_all()
     # Players
@@ -90,14 +91,27 @@ def seed_all():
         db.session.add(new_tournament)
         db.session.commit()
 
+    print(data['tournament_data'])
     for tournament in data['tournament_data']:
+        # for squad in tournament['squad']:
+        #     new_squad = Squad(**squad)
+        #     db.session.add(new_squad)
+        #     db.session.commit()
         # squads
-        for squad in tournament['squad]:
-            new_squad = Squad(**squad)
-            db.session.add(new_squad)
+        # 1)Player Id znalesc
+        # 2)tournamentId
+        # 3)appearances, position, goals
+        for squad_player in tournament['squad']:
+            # print("adsadwds")
+            player = Player.query.filter(
+                Player.lastName == squad_player['lastName'], Player.firstName == squad_player['firstName']).first()
+            tournament_found = Tournament.query.filter_by(
+                year=tournament['year']).first()
+            new_squad_player = {"playerId": player.id, "tournamentId": tournament_found.id,
+                                "goals": squad_player['goals'], "position": squad_player["position"], "appearances": squad_player['matches']}
+
+            db.session.add(Squad(**new_squad_player))
             db.session.commit()
-
-
 
     # 1.Refactoring rounds
     # stages
@@ -114,6 +128,12 @@ def seed_all():
         db.session.commit()
 
     # matches
+    # 1) trzeba teams by foreign key
+    # 2) trzeba tournament id by id
+    # 3) round trzeba znalesc dla tournamenttu i position
+    # 4) goals
+    # Jak to zrobie to musze:
+    # 5) dla kazdego matchu trzeba scorers
     for match in matches:
         new_match = Match(**match)
         db.session.add(new_match)

@@ -17,5 +17,5 @@ class Squad(db.Model):
     player = db.relationship("Player", backref=backref('squads', passive_deletes=False, cascade="all, delete-orphan"))
     tournament = db.relationship("Tournament", backref=backref('squads', passive_deletes=False, cascade="all, delete-orphan"))
 
-    def __repr__(self):
-        return self.get_fullname()
+    # def __repr__(self):
+

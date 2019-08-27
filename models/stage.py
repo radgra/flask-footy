@@ -1,4 +1,6 @@
 from db import db
+from sqlalchemy.orm import backref
+
 
 
 class Stage(db.Model):
