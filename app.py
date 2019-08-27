@@ -80,18 +80,30 @@ def seed_all():
         db.session.add(new_player)
         db.session.commit()
 
-    # for player in players:
-    #     new_player = Player(**player)
-    #     db.session.add(new_player)
-    #     db.session.commit()
-
     # Torunaments
     for tournament in tournaments:
         new_tournament = Tournament(**tournament)
         db.session.add(new_tournament)
         db.session.commit()
 
-    print(data['tournament_data'])
+    # for player in players:
+    # 1.Refactoring rounds
+    # stages
+    for single_round in stages:
+        new_round = Stage(**single_round)
+        db.session.add(new_round)
+        db.session.commit()
+
+    # 2.Teams -> wziac wszystkie teamy i automatycznie flagi przypisac(pozniej), jak problem flag rozwiazalem ???
+    # teams
+    for team in data['teams']:
+        new_team = Team(**team)
+        db.session.add(new_team)
+        db.session.commit()
+    #     new_player = Player(**player)
+    #     db.session.add(new_player)
+    #     db.session.commit()
+
     for tournament in data['tournament_data']:
         # for squad in tournament['squad']:
         #     new_squad = Squad(**squad)
@@ -113,37 +125,34 @@ def seed_all():
             db.session.add(Squad(**new_squad_player))
             db.session.commit()
 
-    # 1.Refactoring rounds
-    # stages
-    for single_round in stages:
-        new_round = Stage(**single_round)
-        db.session.add(new_round)
-        db.session.commit()
+        # matches
+        # 1) trzeba teams by foreign key
+        # 2) trzeba tournament id by id
+        # 3) round trzeba znalesc dla tournamenttu i position
+        # 4) goals
+        # Jak to zrobie to musze:
+        # 5) dla kazdego matchu trzeba scorers
+        # for match in matches:
+        #     new_match = Match(**match)
+        #     db.session.add(new_match)
+        #     db.session.commit()
+        for match in tournament['matches']:
+            home_team = Team.query.filter_by(name=match['homeTeam']).first()
+            away_team = Team.query.filter_by(name=match['awayTeam']).first()
+            tournament_found = Tournament.query.filter_by(
+                year=tournament['year']).first()
+            stage = Stage.query.filter(
+                Stage.tournamentId == tournament_found.id, Stage.position == match['round']).first()
+            new_match = Match(homeTeam=home_team, awayTeam=away_team, tournamentId=tournament_found.id, stageId=stage.id,
+                              date=match['date'], goalsHomeTeam=match['result']['goalsHomeTeam'], goalsAwayTeam=match['result']['goalsAwayTeam'])
+            db.session.add(new_match)
+            db.session.commit()
 
-    # 2.Teams -> wziac wszystkie teamy i automatycznie flagi przypisac(pozniej), jak problem flag rozwiazalem ???
-    # teams
-    for team in teams:
-        new_team = Team(**team)
-        db.session.add(new_team)
-        db.session.commit()
-
-    # matches
-    # 1) trzeba teams by foreign key
-    # 2) trzeba tournament id by id
-    # 3) round trzeba znalesc dla tournamenttu i position
-    # 4) goals
-    # Jak to zrobie to musze:
-    # 5) dla kazdego matchu trzeba scorers
-    for match in matches:
-        new_match = Match(**match)
-        db.session.add(new_match)
-        db.session.commit()
-
-    # scorers
-    for goal in goals:
-        new_goal = Goal(**goal)
-        db.session.add(new_goal)
-        db.session.commit()
+            # scorers
+            for goal in match['goalscorers']['homeGoalScorers']:
+                new_goal = Goal(**goal)
+                db.session.add(new_goal)
+                db.session.commit()
 
     # standings
     for standing in standings:
