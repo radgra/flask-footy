@@ -66,12 +66,23 @@ def make_shell_context():
 
 @app.cli.command('seed')
 def seed_all():
+    import pickle
+    file = open("data.pickle", "rb")
+    data = pickle.load(file)
+    print(data['tournament_data'])
+
     db.create_all()
     # Players
-    for player in players:
+    # tu powinienm wziac wszystkich graczy z zagranicy i z polski
+    for player in data['players']:
         new_player = Player(**player)
         db.session.add(new_player)
         db.session.commit()
+
+    # for player in players:
+    #     new_player = Player(**player)
+    #     db.session.add(new_player)
+    #     db.session.commit()
 
     # Torunaments
     for tournament in tournaments:
@@ -79,18 +90,23 @@ def seed_all():
         db.session.add(new_tournament)
         db.session.commit()
 
-    # squads
-    for squad in squads:
-        new_squad = Squad(**squad)
-        db.session.add(new_squad)
-        db.session.commit()
+    for tournament in data['tournament_data']:
+        # squads
+        for squad in tournament['squad]:
+            new_squad = Squad(**squad)
+            db.session.add(new_squad)
+            db.session.commit()
 
+
+
+    # 1.Refactoring rounds
     # stages
     for single_round in stages:
         new_round = Stage(**single_round)
         db.session.add(new_round)
         db.session.commit()
 
+    # 2.Teams -> wziac wszystkie teamy i automatycznie flagi przypisac(pozniej), jak problem flag rozwiazalem ???
     # teams
     for team in teams:
         new_team = Team(**team)

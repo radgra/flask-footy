@@ -21,14 +21,24 @@ players = [
 
 tournaments = [
     {
-        "title": "Niemcy 2006",
+        "title": "Niemcy 1938",
         "image": "assets/2006.jpg",
-        "year": 2006
+        "year": 1938
     },
     {
-        "title": "Korea i Japonia 2002",
-        "image": "assets/2002.jpg",
-        "year": 2002
+        "title": "Niemcy 1978",
+        "image": "assets/1986.jpg",
+        "year": 1974
+    },
+    {
+        "title": "Argentyna 1978",
+        "image": "assets/1986.jpg",
+        "year": 1978
+    },
+    {
+        "title": "Hiszpania 1982",
+        "image": "assets/1982.jpg",
+        "year": 1982
     },
     {
         "title": "Meksyk 1986",
@@ -36,15 +46,19 @@ tournaments = [
         "year": 1986
     },
     {
-        "title": "Hiszpania 1982",
-        "image": "assets/1982.jpg",
-        "year": 1982
-
+        "title": "Korea i Japonia 2002",
+        "image": "assets/2002.jpg",
+        "year": 2002
     },
     {
-        "title": "Argentyna 1978",
-        "image": "assets/1986.jpg",
-        "year": 1978
+        "title": "Niemcy 2006",
+        "image": "assets/2006.jpg",
+        "year": 2006
+    },
+    {
+        "title": "Rosja 2018",
+        "image": "assets/2006.jpg",
+        "year": 2018
     },
 ]
 
@@ -70,12 +84,90 @@ squads = [
 stages = [
     {
         "name": "Pierwsza Runda",
-        "position": 1
+        "position": 1,
+        "tournamentId":1
     },
     {
-        "name": "Druga Runda",
-        "position": 2
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":2
     },
+    {
+        "name": "Pierwsza Runda",
+        "position": 2,
+        "tournamentId":2
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 3,
+        "tournamentId":2
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 4,
+        "tournamentId":2
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":3
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 2,
+        "tournamentId":3
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 3,
+        "tournamentId":3
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 4,
+        "tournamentId":3
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":4
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 2,
+        "tournamentId":4
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 3,
+        "tournamentId":4
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 4,
+        "tournamentId":4
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":5
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 2,
+        "tournamentId":5
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":6
+    },
+    {
+        "name": "Pierwsza Runda",
+        "position": 1,
+        "tournamentId":7
+    },
+
 ]
 
 teams = [
