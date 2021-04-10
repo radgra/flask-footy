@@ -1,8 +1,8 @@
 from ma import ma
 from models.player import Player
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 
-
-class PlayerSchema(ma.ModelSchema):
+class PlayerSchema(SQLAlchemyAutoSchema):
 
     class Meta:
         model = Player

@@ -1,0 +1,706 @@
+[
+    {
+        "lastName": "Dytko",
+        "firstName": "Ewald"
+    },
+    {
+        "lastName": "Ga\u0142ecki",
+        "firstName": "Antoni"
+    },
+    {
+        "lastName": "G\u00f3ra",
+        "firstName": "Wilhelm"
+    },
+    {
+        "lastName": "Madejski",
+        "firstName": "Edward"
+    },
+    {
+        "lastName": "Nyc",
+        "firstName": "Erwin"
+    },
+    {
+        "lastName": "Piec",
+        "firstName": "Ryszard"
+    },
+    {
+        "lastName": "Pi\u0105tek",
+        "firstName": "Leonard"
+    },
+    {
+        "lastName": "Scherfke",
+        "firstName": "Fryderyk"
+    },
+    {
+        "lastName": "Szczepaniak",
+        "firstName": "W\u0142adys\u0142aw"
+    },
+    {
+        "lastName": "Wilimowski",
+        "firstName": "Ernest"
+    },
+    {
+        "lastName": "Wodarz",
+        "firstName": "Gerard"
+    },
+    {
+        "lastName": "Gorgo\u0144",
+        "firstName": "Jerzy"
+    },
+    {
+        "lastName": "Lato",
+        "firstName": "Grzegorz"
+    },
+    {
+        "lastName": "Szymanowski",
+        "firstName": "Antoni"
+    },
+    {
+        "lastName": "Tomaszewski",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "\u017bmuda",
+        "firstName": "W\u0142adys\u0142aw"
+    },
+    {
+        "lastName": "Gadocha",
+        "firstName": "Robert"
+    },
+    {
+        "lastName": "Deyna",
+        "firstName": "Kazimierz"
+    },
+    {
+        "lastName": "Kasperczak",
+        "firstName": "Henryk"
+    },
+    {
+        "lastName": "Maszczyk",
+        "firstName": "Zygmunt"
+    },
+    {
+        "lastName": "Musia\u0142",
+        "firstName": "Adam"
+    },
+    {
+        "lastName": "Szarmach",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "\u0106mikiewicz",
+        "firstName": "Les\u0142aw"
+    },
+    {
+        "lastName": "Domarski",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Gut",
+        "firstName": "Zbigniew"
+    },
+    {
+        "lastName": "Kmiecik",
+        "firstName": "Kazimierz"
+    },
+    {
+        "lastName": "Kapka",
+        "firstName": "Zdzis\u0142aw"
+    },
+    {
+        "lastName": "Deyna",
+        "firstName": "Kazimierz"
+    },
+    {
+        "lastName": "Lato",
+        "firstName": "Grzegorz"
+    },
+    {
+        "lastName": "Szymanowski",
+        "firstName": "Antoni"
+    },
+    {
+        "lastName": "\u017bmuda",
+        "firstName": "W\u0142adys\u0142aw"
+    },
+    {
+        "lastName": "Maculewicz",
+        "firstName": "Henryk"
+    },
+    {
+        "lastName": "Kasperczak",
+        "firstName": "Henryk"
+    },
+    {
+        "lastName": "Boniek",
+        "firstName": "Zbigniew"
+    },
+    {
+        "lastName": "Gorgo\u0144",
+        "firstName": "Jerzy"
+    },
+    {
+        "lastName": "Nawa\u0142ka",
+        "firstName": "Adam"
+    },
+    {
+        "lastName": "Szarmach",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "Luba\u0144ski",
+        "firstName": "W\u0142odzimierz"
+    },
+    {
+        "lastName": "Tomaszewski",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Masztaler",
+        "firstName": "Bohdan"
+    },
+    {
+        "lastName": "Kukla",
+        "firstName": "Zygmunt"
+    },
+    {
+        "lastName": "Iwan",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "Rudy",
+        "firstName": "Wojciech"
+    },
+    {
+        "lastName": "Mazur",
+        "firstName": "W\u0142odzimierz"
+    },
+    {
+        "lastName": "Buncol",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "Janas",
+        "firstName": "Pawe\u0142"
+    },
+    {
+        "lastName": "Lato",
+        "firstName": "Grzegorz"
+    },
+    {
+        "lastName": "Majewski",
+        "firstName": "Stefan"
+    },
+    {
+        "lastName": "M\u0142ynarczyk",
+        "firstName": "J\u00f3zef"
+    },
+    {
+        "lastName": "\u017bmuda",
+        "firstName": "W\u0142adys\u0142aw"
+    },
+    {
+        "lastName": "Boniek",
+        "firstName": "Zbigniew"
+    },
+    {
+        "lastName": "Smolarek",
+        "firstName": "W\u0142odzimierz"
+    },
+    {
+        "lastName": "Matysik",
+        "firstName": "Waldemar"
+    },
+    {
+        "lastName": "Dziuba",
+        "firstName": "Marek"
+    },
+    {
+        "lastName": "Kupcewicz",
+        "firstName": "Janusz"
+    },
+    {
+        "lastName": "Cio\u0142ek",
+        "firstName": "W\u0142odzimierz"
+    },
+    {
+        "lastName": "Ja\u0142ocha",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Kusto",
+        "firstName": "Marek"
+    },
+    {
+        "lastName": "Szarmach",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "Pa\u0142asz",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "Iwan",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "W\u00f3jcicki",
+        "firstName": "Roman"
+    },
+    {
+        "lastName": "Boniek",
+        "firstName": "Zbigniew"
+    },
+    {
+        "lastName": "Majewski",
+        "firstName": "Stefan"
+    },
+    {
+        "lastName": "M\u0142ynarczyk",
+        "firstName": "J\u00f3zef"
+    },
+    {
+        "lastName": "Ostrowski",
+        "firstName": "Marek"
+    },
+    {
+        "lastName": "W\u00f3jcicki",
+        "firstName": "Roman"
+    },
+    {
+        "lastName": "Smolarek",
+        "firstName": "W\u0142odzimierz"
+    },
+    {
+        "lastName": "Dziekanowski",
+        "firstName": "Dariusz"
+    },
+    {
+        "lastName": "Urban",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Matysik",
+        "firstName": "Waldemar"
+    },
+    {
+        "lastName": "Kara\u015b",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Komornicki",
+        "firstName": "Ryszard"
+    },
+    {
+        "lastName": "Pawlak",
+        "firstName": "Krzysztof"
+    },
+    {
+        "lastName": "Buncol",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "Przyby\u015b",
+        "firstName": "Kazimierz"
+    },
+    {
+        "lastName": "Tarasiewicz",
+        "firstName": "Ryszard"
+    },
+    {
+        "lastName": "Kubicki",
+        "firstName": "Dariusz"
+    },
+    {
+        "lastName": "Furtok",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Zgutczy\u0144ski",
+        "firstName": "Andrzej"
+    },
+    {
+        "lastName": "\u017bmuda",
+        "firstName": "W\u0142adys\u0142aw"
+    },
+    {
+        "lastName": "Ko\u017ami\u0144ski",
+        "firstName": "Marek"
+    },
+    {
+        "lastName": "Krzyn\u00f3wek",
+        "firstName": "Jacek"
+    },
+    {
+        "lastName": "Olisadebe",
+        "firstName": "Emmanuel"
+    },
+    {
+        "lastName": "Krysza\u0142owicz",
+        "firstName": "Pawe\u0142"
+    },
+    {
+        "lastName": "\u017burawski",
+        "firstName": "Maciej"
+    },
+    {
+        "lastName": "Wa\u0142doch",
+        "firstName": "Tomasz"
+    },
+    {
+        "lastName": "\u017bew\u0142akow",
+        "firstName": "Marcin"
+    },
+    {
+        "lastName": "Dudek",
+        "firstName": "Jerzy"
+    },
+    {
+        "lastName": "Hajto",
+        "firstName": "Tomasz"
+    },
+    {
+        "lastName": "\u015awierczewski",
+        "firstName": "Piotr"
+    },
+    {
+        "lastName": "\u017bew\u0142akow",
+        "firstName": "Micha\u0142"
+    },
+    {
+        "lastName": "K\u0142os",
+        "firstName": "Tomasz"
+    },
+    {
+        "lastName": "Ka\u0142u\u017cny",
+        "firstName": "Rados\u0142aw"
+    },
+    {
+        "lastName": "G\u0142owacki",
+        "firstName": "Arkadiusz"
+    },
+    {
+        "lastName": "Majdan",
+        "firstName": "Rados\u0142aw"
+    },
+    {
+        "lastName": "Murawski",
+        "firstName": "Maciej"
+    },
+    {
+        "lastName": "Zieli\u0144ski",
+        "firstName": "Jacek"
+    },
+    {
+        "lastName": "B\u0105k",
+        "firstName": "Arkadiusz"
+    },
+    {
+        "lastName": "Kucharski",
+        "firstName": "Cezary"
+    },
+    {
+        "lastName": "B\u0105k",
+        "firstName": "Jacek"
+    },
+    {
+        "lastName": "Rz\u0105sa",
+        "firstName": "Tomasz"
+    },
+    {
+        "lastName": "Sibik",
+        "firstName": "Pawe\u0142"
+    },
+    {
+        "lastName": "Baszczy\u0144ski",
+        "firstName": "Marcin"
+    },
+    {
+        "lastName": "Boruc",
+        "firstName": "Artur"
+    },
+    {
+        "lastName": "B\u0105k",
+        "firstName": "Jacek"
+    },
+    {
+        "lastName": "Smolarek",
+        "firstName": "Euzebiusz"
+    },
+    {
+        "lastName": "\u017bew\u0142akow",
+        "firstName": "Micha\u0142"
+    },
+    {
+        "lastName": "Krzyn\u00f3wek",
+        "firstName": "Jacek"
+    },
+    {
+        "lastName": "Radomski",
+        "firstName": "Arkadiusz"
+    },
+    {
+        "lastName": "\u017burawski",
+        "firstName": "Maciej"
+    },
+    {
+        "lastName": "Jele\u0144",
+        "firstName": "Ireneusz"
+    },
+    {
+        "lastName": "Bro\u017cek",
+        "firstName": "Pawe\u0142"
+    },
+    {
+        "lastName": "Bosacki",
+        "firstName": "Bartosz"
+    },
+    {
+        "lastName": "Szymkowiak",
+        "firstName": "Miros\u0142aw"
+    },
+    {
+        "lastName": "Sobolewski",
+        "firstName": "Rados\u0142aw"
+    },
+    {
+        "lastName": "Lewandowski",
+        "firstName": "Mariusz"
+    },
+    {
+        "lastName": "Jop",
+        "firstName": "Mariusz"
+    },
+    {
+        "lastName": "Kosowski",
+        "firstName": "Kamil"
+    },
+    {
+        "lastName": "Dudka",
+        "firstName": "Dariusz"
+    },
+    {
+        "lastName": "Rasiak",
+        "firstName": "Grzegorz"
+    },
+    {
+        "lastName": "Krychowiak",
+        "firstName": "Grzegorz"
+    },
+    {
+        "lastName": "Lewandowski",
+        "firstName": "Robert"
+    },
+    {
+        "lastName": "Zieli\u0144ski",
+        "firstName": "Piotr"
+    },
+    {
+        "lastName": "Bednarek",
+        "firstName": "Jan"
+    },
+    {
+        "lastName": "Grosicki",
+        "firstName": "Kamil"
+    },
+    {
+        "lastName": "Bereszy\u0144ski",
+        "firstName": "Bartosz"
+    },
+    {
+        "lastName": "G\u00f3ralski",
+        "firstName": "Jacek"
+    },
+    {
+        "lastName": "Rybus",
+        "firstName": "Maciej"
+    },
+    {
+        "lastName": "Szcz\u0119sny",
+        "firstName": "Wojciech"
+    },
+    {
+        "lastName": "Piszczek",
+        "firstName": "\u0141ukasz"
+    },
+    {
+        "lastName": "Pazdan",
+        "firstName": "Micha\u0142"
+    },
+    {
+        "lastName": "Glik",
+        "firstName": "Kamil"
+    },
+    {
+        "lastName": "Kownacki",
+        "firstName": "Dawid"
+    },
+    {
+        "lastName": "Teodorczyk",
+        "firstName": "\u0141ukasz"
+    },
+    {
+        "lastName": "Cionek",
+        "firstName": "Thiago"
+    },
+    {
+        "lastName": "Fabia\u0144ski",
+        "firstName": "\u0141ukasz"
+    },
+    {
+        "lastName": "J\u0119drzejczyk",
+        "firstName": "Artur"
+    },
+    {
+        "lastName": "Kurzawa",
+        "firstName": "Rafa\u0142"
+    },
+    {
+        "lastName": "Milik",
+        "firstName": "Arkadiusz"
+    },
+    {
+        "lastName": "B\u0142aszczykowski",
+        "firstName": "Jakub"
+    },
+    {
+        "lastName": "Peszko",
+        "firstName": "S\u0142awomir"
+    },
+    {
+        "lastName": "Gerd M\u00fcller",
+        "firstName": ""
+    },
+    {
+        "lastName": "Edinho",
+        "firstName": ""
+    },
+    {
+        "lastName": "Nelinho",
+        "firstName": ""
+    },
+    {
+        "lastName": "Ramon Armando Heredia",
+        "firstName": ""
+    },
+    {
+        "lastName": "Sun-Hong Hwang",
+        "firstName": ""
+    },
+    {
+        "lastName": "Agust\u00edn Delgado",
+        "firstName": ""
+    },
+    {
+        "lastName": "Yerry Mina",
+        "firstName": ""
+    },
+    {
+        "lastName": "M'Baye Niang",
+        "firstName": ""
+    },
+    {
+        "lastName": "Falcao Garcia",
+        "firstName": ""
+    },
+    {
+        "lastName": "Carlos Alberto Babington",
+        "firstName": ""
+    },
+    {
+        "lastName": "Fabio Capello",
+        "firstName": ""
+    },
+    {
+        "lastName": "Pauleta",
+        "firstName": ""
+    },
+    {
+        "lastName": "Landon Donovan",
+        "firstName": ""
+    },
+    {
+        "lastName": "Roberto Dinamite",
+        "firstName": ""
+    },
+    {
+        "lastName": "Le\u00f4nidas",
+        "firstName": ""
+    },
+    {
+        "lastName": "Josimar",
+        "firstName": ""
+    },
+    {
+        "lastName": "Paolo Rossi",
+        "firstName": ""
+    },
+    {
+        "lastName": "Gary Lineker",
+        "firstName": ""
+    },
+    {
+        "lastName": "S\u00f3crates",
+        "firstName": ""
+    },
+    {
+        "lastName": "Yoo Sang-Chul",
+        "firstName": ""
+    },
+    {
+        "lastName": "Rui Costa",
+        "firstName": ""
+    },
+    {
+        "lastName": "Stanislav Karasi",
+        "firstName": ""
+    },
+    {
+        "lastName": "Carlos Tenorio",
+        "firstName": ""
+    },
+    {
+        "lastName": "Oliver Neuville",
+        "firstName": ""
+    },
+    {
+        "lastName": "Juan Cuadrado",
+        "firstName": ""
+    },
+    {
+        "lastName": "Jos\u00e9 Per\u00e1cio",
+        "firstName": ""
+    },
+    {
+        "lastName": "R\u00f3nald G\u00f3mez",
+        "firstName": ""
+    },
+    {
+        "lastName": "Romeu Pellicciari",
+        "firstName": ""
+    },
+    {
+        "lastName": "Ren\u00e9 Girard",
+        "firstName": ""
+    },
+    {
+        "lastName": "Careca",
+        "firstName": ""
+    },
+    {
+        "lastName": "Alain Couriol",
+        "firstName": ""
+    },
+    {
+        "lastName": "Victor Rangel Ayala",
+        "firstName": ""
+    },
+    {
+        "lastName": "Mario Alberto Kempes",
+        "firstName": ""
+    },
+    {
+        "lastName": "Guillermo La Rosa",
+        "firstName": ""
+    }
+]

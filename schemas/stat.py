@@ -1,11 +1,12 @@
 from ma import ma
-from marshmallow import fields
+# from marshmallow import fields
 from models.stat import Stat
 from schemas.player import PlayerSchema
 from schemas.stat_ranking import StatRankingSchema
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema, fields
 
-class StatSchema(ma.ModelSchema):
-    player = fields.Nested(PlayerSchema,exclude=('squads','stats','goals'))
+class StatSchema(SQLAlchemyAutoSchema):
+    player = fields.Nested(PlayerSchema)
     statRankings = fields.Nested(StatRankingSchema, exclude=('statId',), many=True)
     
     class Meta:

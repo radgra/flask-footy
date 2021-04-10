@@ -1,12 +1,13 @@
 from ma import ma
 from models.standing import Standing
-from marshmallow import fields
+# from marshmallow import fields
 from schemas.team import TeamSchema
 from schemas.stage import StageSchema
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema,fields
 
-class StandingSchema(ma.ModelSchema):
-    team = fields.Nested(TeamSchema,exclude=("homeMatches","awayMatches","standings"))
-    stage = fields.Nested(StageSchema, exclude=('standings',"matches"))
+class StandingSchema(SQLAlchemyAutoSchema):
+    team = fields.Nested(TeamSchema)
+    stage = fields.Nested(StageSchema)
 
     class Meta:
         model = Standing
