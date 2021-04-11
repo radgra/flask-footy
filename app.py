@@ -70,20 +70,22 @@ def make_shell_context():
 # circular dependency -> moge exportowac app ale zeby uruchomic plik musze go w app importowac
 @app.cli.command('seed')
 def seed_all():
-    import pickle
-    file = open("data.pickle", "rb")
-    data = pickle.load(file)
-    # print(data['tournament_data'])
-
+ 
     db.create_all()
+
     # Players
-    # tu powinienm wziac wszystkich graczy z zagranicy i z polski
-    for player in data['players']:
+    players = None
+    with open('seed_data/players.json') as f:
+        players = json.load(f)
+
+    for player in players:
         new_player = Player(**player)
         db.session.add(new_player)
         db.session.commit()
 
     # Torunaments
+
+
     for tournament in tournaments:
         new_tournament = Tournament(**tournament)
         db.session.add(new_tournament)
@@ -99,7 +101,11 @@ def seed_all():
 
     # 2.Teams -> wziac wszystkie teamy i automatycznie flagi przypisac(pozniej), jak problem flag rozwiazalem ???
     # teams
-    for team in data['teams']:
+
+    teams = None
+    with open('seed_data/teams.json') as f:
+        teams = json.load(f)
+    for team in teams:
         new_team = Team(**team)
         db.session.add(new_team)
         db.session.commit()
@@ -107,7 +113,11 @@ def seed_all():
     #     db.session.add(new_player)
     #     db.session.commit()
 
-    for tournament in data['tournament_data']:
+
+    tournament_data = None
+    with open('seed_data/tournament_data.json') as f:
+        tournament_data = json.load(f)
+    for tournament in tournament_data:
         # for squad in tournament['squad']:
         #     new_squad = Squad(**squad)
         #     db.session.add(new_squad)
@@ -165,8 +175,7 @@ def seed_all():
                     (Player.lastName == pl_split[-1]) & (Player.firstName == pl_split[0]))).first()
                 if not found_player:
                     pdb.set_trace()
-                new_goal = Goal(
-                    matchId=new_match.id, minute=goal['minute'], playerId=found_player.id, homeTeamGoal=True)
+                new_goal = Goal(matchId=new_match.id, minute=goal['minute'], playerId=found_player.id, homeTeamGoal=True)
                 db.session.add(new_goal)
                 db.session.commit()
 
@@ -197,8 +206,11 @@ def seed_all():
             stage = Stage.query.filter(
                 Stage.tournamentId == tournament_found.id, Stage.position == standing['round']).first()
             # Czy potrzebuje wins/loses/draws ????
+            if not found_team:
+                    pdb.set_trace()
             new_standing = Standing(stageId=stage.id, teamId=found_team.id,
                                     tournamentId=tournament_found.id, position=standing['position'], points=standing['points'], 
+                                    wins=standing['position'], losses=standing['loses'], draws=standing['draws'],                                    
                                     goalsScored=standing['goalsScored'], goalsConceded=standing['goalsConceded'])
             db.session.add(new_standing)
             db.session.commit()

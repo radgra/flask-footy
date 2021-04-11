@@ -8,7 +8,7 @@
                     "goalsHomeTeam": 6
                 },
                 "date": "05.06.1938",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -60,83 +60,83 @@
                         }
                     ]
                 },
-                "homeTeam": "Brazylia"
+                "homeTeam": "Brasil"
             }
         ],
         "squad": [
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Ewald",
                 "lastName": "Dytko"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Antoni",
                 "lastName": "Ga\u0142ecki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Wilhelm",
                 "lastName": "G\u00f3ra"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 1,
                 "firstName": "Edward",
                 "lastName": "Madejski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Erwin",
                 "lastName": "Nyc"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Ryszard",
                 "lastName": "Piec"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Leonard",
                 "lastName": "Pi\u0105tek"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Fryderyk",
                 "lastName": "Scherfke"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "W\u0142adys\u0142aw",
                 "lastName": "Szczepaniak"
             },
             {
                 "goals": 4,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Ernest",
                 "lastName": "Wilimowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Gerard",
                 "lastName": "Wodarz"
@@ -153,16 +153,16 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "15.06.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
                         {
-                            "player": "Ramon Armando Heredia",
+                            "player": "Heredia",
                             "minute": 61
                         },
                         {
-                            "player": "Carlos Alberto Babington",
+                            "player": "Babington",
                             "minute": 67
                         }
                     ],
@@ -181,7 +181,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Argentyna"
+                "homeTeam": "Argentina"
             },
             {
                 "result": {
@@ -189,7 +189,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "19.06.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -232,7 +232,7 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "23.06.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -252,7 +252,7 @@
                         }
                     ]
                 },
-                "homeTeam": "W\u0142ochy"
+                "homeTeam": "Italy"
             },
             {
                 "result": {
@@ -260,7 +260,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "26.06.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -271,7 +271,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Szwecja"
+                "homeTeam": "Sweden"
             },
             {
                 "result": {
@@ -279,7 +279,7 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "30.06.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -299,7 +299,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Jugos\u0142awia"
+                "homeTeam": "Yugoslavia"
             },
             {
                 "result": {
@@ -307,7 +307,7 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "03.07.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -318,7 +318,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "RFN"
+                "homeTeam": "West Germany"
             },
             {
                 "result": {
@@ -326,7 +326,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "06.07.1974 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 3,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -337,118 +337,118 @@
                         }
                     ]
                 },
-                "homeTeam": "Brazylia"
+                "homeTeam": "Brasil"
             }
         ],
         "squad": [
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 7,
                 "firstName": "Jerzy",
                 "lastName": "Gorgo\u0144"
             },
             {
                 "goals": 7,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 7,
                 "firstName": "Grzegorz",
                 "lastName": "Lato"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 7,
                 "firstName": "Antoni",
                 "lastName": "Szymanowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 7,
                 "firstName": "Jan",
                 "lastName": "Tomaszewski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 7,
                 "firstName": "W\u0142adys\u0142aw",
                 "lastName": "\u017bmuda"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 7,
                 "firstName": "Robert",
                 "lastName": "Gadocha"
             },
             {
                 "goals": 3,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 7,
                 "firstName": "Kazimierz",
                 "lastName": "Deyna"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 7,
                 "firstName": "Henryk",
                 "lastName": "Kasperczak"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 7,
                 "firstName": "Zygmunt",
                 "lastName": "Maszczyk"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 6,
                 "firstName": "Adam",
                 "lastName": "Musia\u0142"
             },
             {
                 "goals": 5,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 6,
                 "firstName": "Andrzej",
                 "lastName": "Szarmach"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 6,
                 "firstName": "Les\u0142aw",
                 "lastName": "\u0106mikiewicz"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Jan",
                 "lastName": "Domarski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Zbigniew",
                 "lastName": "Gut"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "Kazimierz",
                 "lastName": "Kmiecik"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Zdzis\u0142aw",
                 "lastName": "Kapka"
@@ -457,7 +457,7 @@
         "standings": [
             {
                 "points": 6,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 1,
                 "goalsConceded": 3,
                 "draws": 0,
@@ -468,7 +468,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Argentyna",
+                "teamName": "Argentina",
                 "position": 2,
                 "goalsConceded": 5,
                 "draws": 1,
@@ -479,7 +479,7 @@
             },
             {
                 "points": 3,
-                "teamName": "W\u0142ochy",
+                "teamName": "Italy",
                 "position": 3,
                 "goalsConceded": 4,
                 "draws": 1,
@@ -501,7 +501,7 @@
             },
             {
                 "points": 6,
-                "teamName": "RFN",
+                "teamName": "West Germany",
                 "position": 1,
                 "goalsConceded": 2,
                 "draws": 0,
@@ -512,7 +512,7 @@
             },
             {
                 "points": 4,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 2,
                 "goalsConceded": 2,
                 "draws": 0,
@@ -523,7 +523,7 @@
             },
             {
                 "points": 2,
-                "teamName": "Szwecja",
+                "teamName": "Sweden",
                 "position": 3,
                 "goalsConceded": 6,
                 "draws": 0,
@@ -534,7 +534,7 @@
             },
             {
                 "points": 0,
-                "teamName": "Jugos\u0142awia",
+                "teamName": "Yugoslavia",
                 "position": 4,
                 "goalsConceded": 6,
                 "draws": 0,
@@ -554,13 +554,13 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "01.06.1978 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "RFN"
+                "homeTeam": "West Germany"
             },
             {
                 "result": {
@@ -568,7 +568,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "06.06.1978",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -579,7 +579,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Tunezja"
+                "homeTeam": "Tunisia"
             },
             {
                 "result": {
@@ -587,12 +587,12 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "10.06.1978",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
                         {
-                            "player": "Victor Rangel Ayala",
+                            "player": "Victor Rangel",
                             "minute": 52
                         }
                     ],
@@ -611,7 +611,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Meksyk"
+                "homeTeam": "Mexico"
             },
             {
                 "result": {
@@ -619,22 +619,22 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "14.06.1978",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [
                         {
-                            "player": "Mario Alberto Kempes",
+                            "player": "Kempes",
                             "minute": 15
                         },
                         {
-                            "player": "Mario Alberto Kempes",
+                            "player": "Kempes",
                             "minute": 71
                         }
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Argentyna"
+                "homeTeam": "Argentina"
             },
             {
                 "result": {
@@ -642,7 +642,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "18.06.1978",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -661,7 +661,7 @@
                     "goalsHomeTeam": 3
                 },
                 "date": "21.06.1978",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -685,125 +685,125 @@
                         }
                     ]
                 },
-                "homeTeam": "Brazylia"
+                "homeTeam": "Brasil"
             }
         ],
         "squad": [
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 6,
                 "firstName": "Kazimierz",
                 "lastName": "Deyna"
             },
             {
                 "goals": 2,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 6,
                 "firstName": "Grzegorz",
                 "lastName": "Lato"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 6,
                 "firstName": "Antoni",
                 "lastName": "Szymanowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 6,
                 "firstName": "W\u0142adys\u0142aw",
                 "lastName": "\u017bmuda"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 6,
                 "firstName": "Henryk",
                 "lastName": "Maculewicz"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 6,
                 "firstName": "Henryk",
                 "lastName": "Kasperczak"
             },
             {
                 "goals": 2,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 6,
                 "firstName": "Zbigniew",
                 "lastName": "Boniek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 5,
                 "firstName": "Jerzy",
                 "lastName": "Gorgo\u0144"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 5,
                 "firstName": "Adam",
                 "lastName": "Nawa\u0142ka"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 5,
                 "firstName": "Andrzej",
                 "lastName": "Szarmach"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 5,
                 "firstName": "W\u0142odzimierz",
                 "lastName": "Luba\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 4,
                 "firstName": "Jan",
                 "lastName": "Tomaszewski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 4,
                 "firstName": "Bohdan",
                 "lastName": "Masztaler"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 2,
                 "firstName": "Zygmunt",
                 "lastName": "Kukla"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "Andrzej",
                 "lastName": "Iwan"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Wojciech",
                 "lastName": "Rudy"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "W\u0142odzimierz",
                 "lastName": "Mazur"
@@ -812,7 +812,7 @@
         "standings": [
             {
                 "points": 5,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 1,
                 "goalsConceded": 1,
                 "draws": 1,
@@ -823,7 +823,7 @@
             },
             {
                 "points": 4,
-                "teamName": "RFN",
+                "teamName": "West Germany",
                 "position": 2,
                 "goalsConceded": 0,
                 "draws": 2,
@@ -834,7 +834,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Tunezja",
+                "teamName": "Tunisia",
                 "position": 3,
                 "goalsConceded": 2,
                 "draws": 1,
@@ -845,7 +845,7 @@
             },
             {
                 "points": 0,
-                "teamName": "Meksyk",
+                "teamName": "Mexico",
                 "position": 4,
                 "goalsConceded": 12,
                 "draws": 0,
@@ -856,7 +856,7 @@
             },
             {
                 "points": 5,
-                "teamName": "Argentyna",
+                "teamName": "Argentina",
                 "position": 1,
                 "goalsConceded": 0,
                 "draws": 1,
@@ -867,7 +867,7 @@
             },
             {
                 "points": 5,
-                "teamName": "Brazylia",
+                "teamName": "Brasil",
                 "position": 2,
                 "goalsConceded": 1,
                 "draws": 1,
@@ -878,7 +878,7 @@
             },
             {
                 "points": 2,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 3,
                 "goalsConceded": 5,
                 "draws": 0,
@@ -909,13 +909,13 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "14.06.1982",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "W\u0142ochy"
+                "homeTeam": "Italy"
             },
             {
                 "result": {
@@ -923,13 +923,13 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "19.06.1982",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Kamerun"
+                "homeTeam": "Cameroon"
             },
             {
                 "result": {
@@ -937,12 +937,12 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "22.06.1982",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
                         {
-                            "player": "Guillermo La Rosa",
+                            "player": "La Rosa",
                             "minute": 83
                         }
                     ],
@@ -977,7 +977,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "28.06.1982 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -996,7 +996,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Belgia"
+                "homeTeam": "Belgium"
             },
             {
                 "result": {
@@ -1004,13 +1004,13 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "04.07.1982 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "ZSRR"
+                "homeTeam": "Soviet Union"
             },
             {
                 "result": {
@@ -1018,7 +1018,7 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "08.07.1982 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 3,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1033,7 +1033,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "W\u0142ochy"
+                "homeTeam": "Italy"
             },
             {
                 "result": {
@@ -1041,7 +1041,7 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "10.07.1982",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 4,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1069,132 +1069,132 @@
                         }
                     ]
                 },
-                "homeTeam": "Francja"
+                "homeTeam": "France"
             }
         ],
         "squad": [
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 7,
                 "firstName": "Andrzej",
                 "lastName": "Buncol"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 7,
                 "firstName": "Pawe\u0142",
                 "lastName": "Janas"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 7,
                 "firstName": "Grzegorz",
                 "lastName": "Lato"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 7,
                 "firstName": "Stefan",
                 "lastName": "Majewski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 7,
                 "firstName": "J\u00f3zef",
                 "lastName": "M\u0142ynarczyk"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 7,
                 "firstName": "W\u0142adys\u0142aw",
                 "lastName": "\u017bmuda"
             },
             {
                 "goals": 4,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 6,
                 "firstName": "Zbigniew",
                 "lastName": "Boniek"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 6,
                 "firstName": "W\u0142odzimierz",
                 "lastName": "Smolarek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 6,
                 "firstName": "Waldemar",
                 "lastName": "Matysik"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 5,
                 "firstName": "Marek",
                 "lastName": "Dziuba"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 5,
                 "firstName": "Janusz",
                 "lastName": "Kupcewicz"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 4,
                 "firstName": "W\u0142odzimierz",
                 "lastName": "Cio\u0142ek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Jan",
                 "lastName": "Ja\u0142ocha"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Marek",
                 "lastName": "Kusto"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "Andrzej",
                 "lastName": "Szarmach"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "Andrzej",
                 "lastName": "Pa\u0142asz"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "Andrzej",
                 "lastName": "Iwan"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Roman",
                 "lastName": "W\u00f3jcicki"
@@ -1203,7 +1203,7 @@
         "standings": [
             {
                 "points": 4,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 1,
                 "goalsConceded": 1,
                 "draws": 2,
@@ -1214,7 +1214,7 @@
             },
             {
                 "points": 3,
-                "teamName": "W\u0142ochy",
+                "teamName": "Italy",
                 "position": 2,
                 "goalsConceded": 2,
                 "draws": 3,
@@ -1225,7 +1225,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Kamerun",
+                "teamName": "Cameroon",
                 "position": 3,
                 "goalsConceded": 1,
                 "draws": 3,
@@ -1247,7 +1247,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 1,
                 "goalsConceded": 0,
                 "draws": 1,
@@ -1258,7 +1258,7 @@
             },
             {
                 "points": 3,
-                "teamName": "ZSRR",
+                "teamName": "Soviet Union",
                 "position": 2,
                 "goalsConceded": 0,
                 "draws": 1,
@@ -1269,7 +1269,7 @@
             },
             {
                 "points": 0,
-                "teamName": "Belgia",
+                "teamName": "Belgium",
                 "position": 3,
                 "goalsConceded": 4,
                 "draws": 0,
@@ -1289,13 +1289,13 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "02.06.1986 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Maroko"
+                "homeTeam": "Morocco"
             },
             {
                 "result": {
@@ -1303,7 +1303,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "07.06.1986 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -1314,7 +1314,7 @@
                         }
                     ]
                 },
-                "homeTeam": "Portugalia"
+                "homeTeam": "Portugal"
             },
             {
                 "result": {
@@ -1322,7 +1322,7 @@
                     "goalsHomeTeam": 3
                 },
                 "date": "11.06.1986 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1341,7 +1341,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Anglia"
+                "homeTeam": "England"
             },
             {
                 "result": {
@@ -1349,7 +1349,7 @@
                     "goalsHomeTeam": 4
                 },
                 "date": "16.06.1986",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 2,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1372,139 +1372,139 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Brazylia"
+                "homeTeam": "Brasil"
             }
         ],
         "squad": [
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 4,
                 "firstName": "Zbigniew",
                 "lastName": "Boniek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 4,
                 "firstName": "Stefan",
                 "lastName": "Majewski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 4,
                 "firstName": "J\u00f3zef",
                 "lastName": "M\u0142ynarczyk"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 4,
                 "firstName": "Marek",
                 "lastName": "Ostrowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 4,
                 "firstName": "Roman",
                 "lastName": "W\u00f3jcicki"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 4,
                 "firstName": "W\u0142odzimierz",
                 "lastName": "Smolarek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 4,
                 "firstName": "Dariusz",
                 "lastName": "Dziekanowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 4,
                 "firstName": "Jan",
                 "lastName": "Urban"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Waldemar",
                 "lastName": "Matysik"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Jan",
                 "lastName": "Kara\u015b"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Ryszard",
                 "lastName": "Komornicki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Krzysztof",
                 "lastName": "Pawlak"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Andrzej",
                 "lastName": "Buncol"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Kazimierz",
                 "lastName": "Przyby\u015b"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Ryszard",
                 "lastName": "Tarasiewicz"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Dariusz",
                 "lastName": "Kubicki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Jan",
                 "lastName": "Furtok"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Andrzej",
                 "lastName": "Zgutczy\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "W\u0142adys\u0142aw",
                 "lastName": "\u017bmuda"
@@ -1513,7 +1513,7 @@
         "standings": [
             {
                 "points": 4,
-                "teamName": "Maroko",
+                "teamName": "Morocco",
                 "position": 1,
                 "goalsConceded": 1,
                 "draws": 2,
@@ -1524,7 +1524,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Anglia",
+                "teamName": "England",
                 "position": 2,
                 "goalsConceded": 1,
                 "draws": 1,
@@ -1535,7 +1535,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 3,
                 "goalsConceded": 3,
                 "draws": 1,
@@ -1546,7 +1546,7 @@
             },
             {
                 "points": 2,
-                "teamName": "Portugalia",
+                "teamName": "Portugal",
                 "position": 4,
                 "goalsConceded": 4,
                 "draws": 0,
@@ -1566,22 +1566,22 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "04.06.2002",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
                         {
-                            "player": "Sun-Hong Hwang",
+                            "player": "Hwang",
                             "minute": 26
                         },
                         {
-                            "player": "Yoo Sang-Chul",
+                            "player": "Yoo",
                             "minute": 54
                         }
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Korea P\u0142d."
+                "homeTeam": "South Korea"
             },
             {
                 "result": {
@@ -1589,7 +1589,7 @@
                     "goalsHomeTeam": 4
                 },
                 "date": "10.06.2002 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1612,7 +1612,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Portugalia"
+                "homeTeam": "Portugal"
             },
             {
                 "result": {
@@ -1620,7 +1620,7 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "14.06.2002",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1650,154 +1650,154 @@
         "squad": [
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Marek",
                 "lastName": "Ko\u017ami\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Jacek",
                 "lastName": "Krzyn\u00f3wek"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Emmanuel",
                 "lastName": "Olisadebe"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Pawe\u0142",
                 "lastName": "Krysza\u0142owicz"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Maciej",
                 "lastName": "\u017burawski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Tomasz",
                 "lastName": "Wa\u0142doch"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Marcin",
                 "lastName": "\u017bew\u0142akow"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 2,
                 "firstName": "Jerzy",
                 "lastName": "Dudek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Tomasz",
                 "lastName": "Hajto"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Piotr",
                 "lastName": "\u015awierczewski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Micha\u0142",
                 "lastName": "\u017bew\u0142akow"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Tomasz",
                 "lastName": "K\u0142os"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Rados\u0142aw",
                 "lastName": "Ka\u0142u\u017cny"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Arkadiusz",
                 "lastName": "G\u0142owacki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 1,
                 "firstName": "Rados\u0142aw",
                 "lastName": "Majdan"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Maciej",
                 "lastName": "Murawski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Jacek",
                 "lastName": "Zieli\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Arkadiusz",
                 "lastName": "B\u0105k"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Cezary",
                 "lastName": "Kucharski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Jacek",
                 "lastName": "B\u0105k"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Tomasz",
                 "lastName": "Rz\u0105sa"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Pawe\u0142",
                 "lastName": "Sibik"
@@ -1806,7 +1806,7 @@
         "standings": [
             {
                 "points": 7,
-                "teamName": "Korea P\u0142d.",
+                "teamName": "South Korea",
                 "position": 1,
                 "goalsConceded": 1,
                 "draws": 1,
@@ -1828,7 +1828,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Portugalia",
+                "teamName": "Portugal",
                 "position": 3,
                 "goalsConceded": 4,
                 "draws": 0,
@@ -1839,7 +1839,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 4,
                 "goalsConceded": 7,
                 "draws": 0,
@@ -1859,12 +1859,12 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "09.06.2006 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
                         {
-                            "player": "Carlos Tenorio",
+                            "player": "Tenorio",
                             "minute": 24
                         },
                         {
@@ -1874,7 +1874,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Ekwador"
+                "homeTeam": "Ecuador"
             },
             {
                 "result": {
@@ -1882,7 +1882,7 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "14.06.2006 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1893,7 +1893,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Niemcy"
+                "homeTeam": "Germany"
             },
             {
                 "result": {
@@ -1901,7 +1901,7 @@
                     "goalsHomeTeam": 1
                 },
                 "date": "20.06.2006 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -1921,132 +1921,132 @@
                         }
                     ]
                 },
-                "homeTeam": "Kostaryka"
+                "homeTeam": "Costa Rica"
             }
         ],
         "squad": [
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Marcin",
                 "lastName": "Baszczy\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 3,
                 "firstName": "Artur",
                 "lastName": "Boruc"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Jacek",
                 "lastName": "B\u0105k"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Euzebiusz",
                 "lastName": "Smolarek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Micha\u0142",
                 "lastName": "\u017bew\u0142akow"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Jacek",
                 "lastName": "Krzyn\u00f3wek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Arkadiusz",
                 "lastName": "Radomski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Maciej",
                 "lastName": "\u017burawski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Ireneusz",
                 "lastName": "Jele\u0144"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Pawe\u0142",
                 "lastName": "Bro\u017cek"
             },
             {
                 "goals": 2,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Bartosz",
                 "lastName": "Bosacki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Miros\u0142aw",
                 "lastName": "Szymkowiak"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Rados\u0142aw",
                 "lastName": "Sobolewski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Mariusz",
                 "lastName": "Lewandowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Mariusz",
                 "lastName": "Jop"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Kamil",
                 "lastName": "Kosowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Dariusz",
                 "lastName": "Dudka"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Grzegorz",
                 "lastName": "Rasiak"
@@ -2055,7 +2055,7 @@
         "standings": [
             {
                 "points": 9,
-                "teamName": "Niemcy",
+                "teamName": "Germany",
                 "position": 1,
                 "goalsConceded": 2,
                 "draws": 0,
@@ -2066,7 +2066,7 @@
             },
             {
                 "points": 6,
-                "teamName": "Ekwador",
+                "teamName": "Ecuador",
                 "position": 2,
                 "goalsConceded": 3,
                 "draws": 0,
@@ -2077,7 +2077,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 3,
                 "goalsConceded": 4,
                 "draws": 0,
@@ -2088,7 +2088,7 @@
             },
             {
                 "points": 0,
-                "teamName": "Kostaryka",
+                "teamName": "Costa Rica",
                 "position": 4,
                 "goalsConceded": 9,
                 "draws": 0,
@@ -2108,7 +2108,7 @@
                     "goalsHomeTeam": 2
                 },
                 "date": "19.06.2018 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -2136,7 +2136,7 @@
                     "goalsHomeTeam": 3
                 },
                 "date": "24.06.2018 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [
@@ -2145,7 +2145,7 @@
                             "minute": 40
                         },
                         {
-                            "player": "Falcao Garcia",
+                            "player": "Falcao",
                             "minute": 70
                         },
                         {
@@ -2155,7 +2155,7 @@
                     ],
                     "awayGoalScorers": []
                 },
-                "homeTeam": "Kolumbia"
+                "homeTeam": "Columbia"
             },
             {
                 "result": {
@@ -2163,7 +2163,7 @@
                     "goalsHomeTeam": 0
                 },
                 "date": "28.06.2018 ",
-                "awayTeam": "Polska",
+                "awayTeam": "Poland",
                 "round": 1,
                 "goalscorers": {
                     "homeGoalScorers": [],
@@ -2174,153 +2174,153 @@
                         }
                     ]
                 },
-                "homeTeam": "Japonia"
+                "homeTeam": "Japan"
             }
         ],
         "squad": [
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Grzegorz",
                 "lastName": "Krychowiak"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 3,
                 "firstName": "Robert",
                 "lastName": "Lewandowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Piotr",
                 "lastName": "Zieli\u0144ski"
             },
             {
                 "goals": 1,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Jan",
                 "lastName": "Bednarek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 3,
                 "firstName": "Kamil",
                 "lastName": "Grosicki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 3,
                 "firstName": "Bartosz",
                 "lastName": "Bereszy\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Jacek",
                 "lastName": "G\u00f3ralski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 2,
                 "firstName": "Maciej",
                 "lastName": "Rybus"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 2,
                 "firstName": "Wojciech",
                 "lastName": "Szcz\u0119sny"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "\u0141ukasz",
                 "lastName": "Piszczek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Micha\u0142",
                 "lastName": "Pazdan"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 2,
                 "firstName": "Kamil",
                 "lastName": "Glik"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "Dawid",
                 "lastName": "Kownacki"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 2,
                 "firstName": "\u0141ukasz",
                 "lastName": "Teodorczyk"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Thiago",
                 "lastName": "Cionek"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Goalkeeper",
                 "matches": 1,
                 "firstName": "\u0141ukasz",
                 "lastName": "Fabia\u0144ski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Defender",
                 "matches": 1,
                 "firstName": "Artur",
                 "lastName": "J\u0119drzejczyk"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Rafa\u0142",
                 "lastName": "Kurzawa"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Forward",
                 "matches": 1,
                 "firstName": "Arkadiusz",
                 "lastName": "Milik"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "Jakub",
                 "lastName": "B\u0142aszczykowski"
             },
             {
                 "goals": 0,
-                "position": "Obronca",
+                "position": "Midfielder",
                 "matches": 1,
                 "firstName": "S\u0142awomir",
                 "lastName": "Peszko"
@@ -2329,7 +2329,7 @@
         "standings": [
             {
                 "points": 6,
-                "teamName": "Kolumbia",
+                "teamName": "Columbia",
                 "position": 1,
                 "goalsConceded": 2,
                 "draws": 0,
@@ -2340,7 +2340,7 @@
             },
             {
                 "points": 4,
-                "teamName": "Japonia",
+                "teamName": "Japan",
                 "position": 2,
                 "goalsConceded": 4,
                 "draws": 1,
@@ -2362,7 +2362,7 @@
             },
             {
                 "points": 3,
-                "teamName": "Polska",
+                "teamName": "Poland",
                 "position": 4,
                 "goalsConceded": 5,
                 "draws": 0,

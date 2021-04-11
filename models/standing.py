@@ -13,6 +13,10 @@ class Standing(db.Model):
     goalsScored = db.Column(db.Integer)
     goalsConceded = db.Column(db.Integer)
     points = db.Column(db.Integer)
+    wins = db.Column(db.Integer)
+    losses = db.Column(db.Integer)
+    draws = db.Column(db.Integer)
+
 
     tournament = db.relationship("Tournament", backref=backref('standings', passive_deletes=False, cascade="all, delete-orphan"))
     team = db.relationship("Team", backref=backref('standings', passive_deletes=False, cascade="all, delete-orphan"))

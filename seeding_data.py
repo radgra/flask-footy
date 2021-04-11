@@ -83,92 +83,77 @@ squads = [
 
 stages = [
     {
-        "name": "Pierwsza Runda",
+        "name": "Round of 16",
         "position": 1,
         "tournamentId":1
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":2
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Second Round",
         "position": 2,
         "tournamentId":2
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Third place Play-off",
         "position": 3,
         "tournamentId":2
     },
     {
-        "name": "Pierwsza Runda",
-        "position": 4,
-        "tournamentId":2
-    },
-    {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":3
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Second Round",
         "position": 2,
         "tournamentId":3
     },
     {
-        "name": "Pierwsza Runda",
-        "position": 3,
-        "tournamentId":3
-    },
-    {
-        "name": "Pierwsza Runda",
-        "position": 4,
-        "tournamentId":3
-    },
-    {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":4
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Second Round",
         "position": 2,
         "tournamentId":4
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Semi-Finals",
         "position": 3,
         "tournamentId":4
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Third place Play-off",
         "position": 4,
         "tournamentId":4
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":5
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "Round of 16",
         "position": 2,
         "tournamentId":5
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":6
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":7
     },
     {
-        "name": "Pierwsza Runda",
+        "name": "First Round",
         "position": 1,
         "tournamentId":8
     },
@@ -291,8 +276,11 @@ stats = [
     },
     {
         "playerId":2,
-        "goals":20,
-        "matches":40
+        "goals":10,
+        "matches":30
+        # "value":20,
+        # "rankingType":"goals",
+        # "position":1
     },
 ]
 
@@ -305,6 +293,6 @@ stat_rankings = [
     {
         "statId":1,
         "position":1,
-        "rankingType":"matchest"
+        "rankingType":"matches"
     },
 ]

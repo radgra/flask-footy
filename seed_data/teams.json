@@ -1,106 +1,106 @@
 [
     {
         "name": "Haiti",
-        "flag": "/assets/flags/pl.svg"
+        "flag": "ha-flag"
     },
     {
-        "name": "RFN",
-        "flag": "/assets/flags/pl.svg"
+        "name": "West Germany",
+        "flag": "wg-flag"
     },
     {
-        "name": "Korea P\u0142d.",
-        "flag": "/assets/flags/pl.svg"
+        "name": "South Korea",
+        "flag": "sk-flag"
     },
     {
-        "name": "Kostaryka",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Costa Rica",
+        "flag": "cr-flag"
     },
     {
-        "name": "Kamerun",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Cameroon",
+        "flag": "ca-flag"
     },
     {
-        "name": "Ekwador",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Ecuador",
+        "flag": "ec-flag"
     },
     {
-        "name": "Jugos\u0142awia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Yugoslavia",
+        "flag": "yg-flag"
     },
     {
-        "name": "Maroko",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Morocco",
+        "flag": "mo-flag"
     },
     {
-        "name": "ZSRR",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Soviet Union",
+        "flag": "su-flag"
     },
     {
-        "name": "Kolumbia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Columbia",
+        "flag": "co-flag"
     },
     {
-        "name": "Szwecja",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Sweden",
+        "flag": "se-flag"
     },
     {
-        "name": "Tunezja",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Tunisia",
+        "flag": "tu-flag"
     },
     {
-        "name": "Polska",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Poland",
+        "flag": "pl-flag"
     },
     {
-        "name": "Francja",
-        "flag": "/assets/flags/pl.svg"
+        "name": "France",
+        "flag": "fr-flag"
     },
     {
         "name": "Senegal",
-        "flag": "/assets/flags/pl.svg"
+        "flag": "sg-flag"
     },
     {
-        "name": "Portugalia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Portugal",
+        "flag": "po-flag"
     },
     {
-        "name": "W\u0142ochy",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Italy",
+        "flag": "it-flag"
     },
     {
-        "name": "Niemcy",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Germany",
+        "flag": "ge-flag"
     },
     {
-        "name": "Meksyk",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Mexico",
+        "flag": "me-flag"
     },
     {
-        "name": "Japonia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Japan",
+        "flag": "jp-flag"
     },
     {
-        "name": "Brazylia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Brasil",
+        "flag": "br-flag"
     },
     {
         "name": "Peru",
-        "flag": "/assets/flags/pl.svg"
+        "flag": "pe-flag"
     },
     {
-        "name": "Anglia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "England",
+        "flag": "en-flag"
     },
     {
         "name": "USA",
-        "flag": "/assets/flags/pl.svg"
+        "flag": "us-flag"
     },
     {
-        "name": "Argentyna",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Argentina",
+        "flag": "ar-flag"
     },
     {
-        "name": "Belgia",
-        "flag": "/assets/flags/pl.svg"
+        "name": "Belgium",
+        "flag": "be-flag"
     }
 ]
