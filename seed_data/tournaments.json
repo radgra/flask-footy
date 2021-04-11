@@ -1,41 +1,48 @@
 [{
     "title":"Russia 2018",
     "image":"assets/2018logo.png",
-    "year":2018
+    "year":2018,
+    "id":8
   },
   {
     "title":"Germany 2006",
     "image":"assets/2006logo.png",
-    "year":2006
+    "year":2006,
+    "id":7
   },
   {
     "title":"Korea and Japan 2002",
     "image":"assets/2002logo.png",
-    "year":2002
+    "year":2002,
+    "id":6
   },
   {
     "title":"Mexico 1986",
     "image":"assets/1986logo.png",
-    "year":1986      
+    "year":1986, 
+    "id":5
   },
   {
     "title":"Spain 1982",
     "image":"assets/1982logo.png",
-    "year":1982
-    
+    "year":1982,
+    "id":4
   },
   {
     "title":"Argentina 1978",
     "image":"assets/1978.png",
-    "year":1978
+    "year":1978,
+    "id":3
   },
   {
     "title":"West Germany 1974",
     "image":"assets/1974.png",
-    "year":1974
+    "year":1974,
+    "id":2
   },
   {
     "title":"France 1938",
     "image":"assets/1938.jpg",
-    "year":1938
+    "year":1938,
+    "id":1
   }]

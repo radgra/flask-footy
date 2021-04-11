@@ -1,7 +1,6 @@
 from ma import ma
 from models.match import Match
 from schemas.team import TeamSchema
-# from marshmallow import fields
 from schemas.tournament import TournamentSchema
 from schemas.goal import GoalSchema
 from schemas.stage import StageSchema

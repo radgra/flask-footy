@@ -1,6 +1,5 @@
 from ma import ma
 from models.standing import Standing
-# from marshmallow import fields
 from schemas.team import TeamSchema
 from schemas.stage import StageSchema
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema,fields

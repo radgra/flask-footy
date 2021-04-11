@@ -80,12 +80,17 @@ def seed_all():
     tournaments = None
     with open('seed_data/tournaments.json') as f:
         tournaments = json.load(f)
+
     for tournament in tournaments:
         new_tournament = Tournament(**tournament)
         db.session.add(new_tournament)
         db.session.commit()
 
     # stages
+    stages = None
+    with open('seed_data/stages.json') as f:
+        stages = json.load(f)
+        
     for single_round in stages:
         new_round = Stage(**single_round)
         db.session.add(new_round)
