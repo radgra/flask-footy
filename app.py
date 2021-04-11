@@ -4,7 +4,6 @@ from db import db
 from ma import ma
 from flask_cors import CORS
 # Seeding Data
-from seeding_data import players, tournaments, squads, stages, teams, matches, goals, standings, stats, stat_rankings
 # Models
 from models.player import Player
 from models.stage import Stage
@@ -14,8 +13,6 @@ from models.team import Team
 from models.match import Match
 from models.goal import Goal
 from models.standing import Standing
-from models.stat import Stat
-from models.stat_ranking import StatRanking
 # Resources
 from resources.players import PlayerList
 from resources.tournaments import TournamentList
@@ -25,8 +22,6 @@ from resources.teams import TeamList
 from resources.matches import MatchList
 from resources.goals import GoalList
 from resources.standings import StandingList
-from resources.stats import StatList
-from resources.stat_rankings import StatRankingList
 import pdb
 from datetime import datetime
 import json
@@ -38,7 +33,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['PROPAGATE_EXCEPTIONS'] = True
 app.config['JSON_SORT_KEYS'] = False
-app.secret_key = 'sdkjlsajdkslaj'  # app.config['JWT_SECRET_KEY']
+app.secret_key = 'sdkjlsajdkslaj'
 
 api = Api(app)
 
@@ -54,8 +49,6 @@ api.add_resource(TeamList, '/teams')
 api.add_resource(MatchList, '/matches')
 api.add_resource(GoalList, '/goals')
 api.add_resource(StandingList, '/standings')
-api.add_resource(StatList, '/stats')
-api.add_resource(StatRankingList, '/statrankings')
 
 
 @app.before_first_request
@@ -67,7 +60,7 @@ def create_tables():
 def make_shell_context():
     return dict(db=db, app=app, Player=Player)
 
-# circular dependency -> moge exportowac app ale zeby uruchomic plik musze go w app importowac
+
 @app.cli.command('seed')
 def seed_all():
  
@@ -84,24 +77,21 @@ def seed_all():
         db.session.commit()
 
     # Torunaments
-
-
+    tournaments = None
+    with open('seed_data/tournaments.json') as f:
+        tournaments = json.load(f)
     for tournament in tournaments:
         new_tournament = Tournament(**tournament)
         db.session.add(new_tournament)
         db.session.commit()
 
-    # for player in players:
-    # 1.Refactoring rounds
     # stages
     for single_round in stages:
         new_round = Stage(**single_round)
         db.session.add(new_round)
         db.session.commit()
 
-    # 2.Teams -> wziac wszystkie teamy i automatycznie flagi przypisac(pozniej), jak problem flag rozwiazalem ???
     # teams
-
     teams = None
     with open('seed_data/teams.json') as f:
         teams = json.load(f)
@@ -109,25 +99,15 @@ def seed_all():
         new_team = Team(**team)
         db.session.add(new_team)
         db.session.commit()
-    #     new_player = Player(**player)
-    #     db.session.add(new_player)
-    #     db.session.commit()
+
 
 
     tournament_data = None
     with open('seed_data/tournament_data.json') as f:
         tournament_data = json.load(f)
     for tournament in tournament_data:
-        # for squad in tournament['squad']:
-        #     new_squad = Squad(**squad)
-        #     db.session.add(new_squad)
-        #     db.session.commit()
-        # squads
-        # 1)Player Id znalesc
-        # 2)tournamentId
-        # 3)appearances, position, goals
+
         for squad_player in tournament['squad']:
-            # print("adsadwds")
             player = Player.query.filter(
                 Player.lastName == squad_player['lastName'], Player.firstName == squad_player['firstName']).first()
             tournament_found = Tournament.query.filter_by(
@@ -139,16 +119,6 @@ def seed_all():
             db.session.commit()
 
         # matches
-        # 1) trzeba teams by foreign key
-        # 2) trzeba tournament id by id
-        # 3) round trzeba znalesc dla tournamenttu i position
-        # 4) goals
-        # Jak to zrobie to musze:
-        # 5) dla kazdego matchu trzeba scorers
-        # for match in matches:
-        #     new_match = Match(**match)
-        #     db.session.add(new_match)
-        #     db.session.commit()
         for match in tournament['matches']:
             home_team = Team.query.filter_by(name=match['homeTeam']).first()
             away_team = Team.query.filter_by(name=match['awayTeam']).first()
@@ -166,7 +136,6 @@ def seed_all():
 
             # homegoalscorers
             for goal in match['goalscorers']['homeGoalScorers']:
-                # playerId = napisac or query => albo last name jest takie albo split string i szukac po first name i last name
                 if '(k)' in goal['player'] or '(s)' in goal['player']:
                     goal['player'] = goal['player'][3:]
 
@@ -181,7 +150,6 @@ def seed_all():
 
             # awaygoalscorers
             for goal in match['goalscorers']['awayGoalScorers']:
-                # playerId = napisac or query => albo last name jest takie albo split string i szukac po first name i last name
                 if '(k)' in goal['player'] or '(s)' in goal['player']:
                     goal['player'] = goal['player'][3:]
 
@@ -197,15 +165,15 @@ def seed_all():
 
         # standings
         for standing in tournament['standings']:
-            # 1.Team id
+
             found_team = Team.query.filter_by(
                 name=standing['teamName']).first()
-            # 2.Round Id
+
             tournament_found = Tournament.query.filter_by(
                 year=tournament['year']).first()
             stage = Stage.query.filter(
                 Stage.tournamentId == tournament_found.id, Stage.position == standing['round']).first()
-            # Czy potrzebuje wins/loses/draws ????
+
             if not found_team:
                     pdb.set_trace()
             new_standing = Standing(stageId=stage.id, teamId=found_team.id,
@@ -215,17 +183,6 @@ def seed_all():
             db.session.add(new_standing)
             db.session.commit()
 
-    # stats
-    for stat in stats:
-        new_stat = Stat(**stat)
-        db.session.add(new_stat)
-        db.session.commit()
-
-    # stat_rankings
-    for sr in stat_rankings:
-        new_sr = StatRanking(**sr)
-        db.session.add(new_sr)
-        db.session.commit()
 
 
 if __name__ == '__main__':
