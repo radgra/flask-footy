@@ -22,6 +22,7 @@ from resources.teams import TeamList
 from resources.matches import MatchList
 from resources.goals import GoalList
 from resources.standings import StandingList
+from resources.stats import StatList
 import pdb
 from datetime import datetime
 import json
@@ -49,6 +50,7 @@ api.add_resource(TeamList, '/teams')
 api.add_resource(MatchList, '/matches')
 api.add_resource(GoalList, '/goals')
 api.add_resource(StandingList, '/standings')
+api.add_resource(StatList, '/stats')
 
 
 @app.before_first_request

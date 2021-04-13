@@ -1,14 +1,11 @@
 from flask_restful import Resource
-from models.stat import Stat
 from models.squad import Squad
 from models.player import Player
-from schemas.stat import StatSchema
 from flask import request
 from sqlalchemy import func
 from db import db
 
 class StatList(Resource):
-    stat_schema = StatSchema()
 
     def get(self):
         stat_type = request.args.get('type')
